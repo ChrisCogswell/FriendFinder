@@ -1,5 +1,5 @@
 var friendData = require("../data/friends");
-console.log(friendData);
+// console.log(friendData);
 
 module.exports = function(app) {
 
