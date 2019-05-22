@@ -12,41 +12,36 @@ module.exports = function(app) {
      
     app.post("/api/friends", function(req, res) {
  
-            friendData.push(req.body);
-        //     res.json(true);
+      console.log(req.body.scores);
 
-        // var userScore = [];   
-        // var friendScores = [];
-
-        // var score= (friendData[8].scores);
-
-        // score.forEach(num => {
-        //   userScore.push(parseInt(num));
-        // });
-        
-        // for (var i = 0; i < friendData.length; i++){
-          
-        //   friendScores.push(friendData[i].scores);
-        // }
-        
-        // console.log(userScore);
-        // console.log(friendScores);
-      });
-      
-      
-    };
+      var user = req.body;
+  
+      for(var i = 0; i < user.scores.length; i++) {
+        user.scores[i] = parseInt(user.scores[i]);
+      }
+  
+      var bestFriendIndex = 0;
+      var maxDifference = 40;
+  
+     
+      for(var i = 0; i < friendData.length; i++) {
+        var totalDifference = 0;
+        for(var j = 0; j < friendData[i].scores.length; j++) {
+          var difference = Math.abs(user.scores[j] - friendData[i].scores[j]);
+          totalDifference += difference;
+        }
+  
+        if(totalDifference < maxDifference) {
+          bestFriendIndex = i;
+         maxDifference = totalDifference;
+        }
+      }
+  
+      friendData.push(user);
+  
+      res.json(friendData[bestFriendIndex]);
+    });
+  };
+       
     
-    // console.log("friend" + friendScores);
-    //  console.log(score.map(Number));
     
-    // Note the code here. Our "server" will respond to requests and let users know if they have a table or not.
-    // It will do this by sending out the value "true" have a table
-    // req.body is available since we're using the body parsing middleware
-    // if (tableData.length < 5) {
-    //   tableData.push(req.body);
-    //   res.json(true);
-    // }
-    // else {
-    //   waitListData.push(req.body);
-    //   res.json(false);
-    // }

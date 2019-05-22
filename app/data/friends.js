@@ -2,7 +2,7 @@
 var friendsArray = [
     {
         "name":"Ahmed",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://www.birmingham.ac.uk/Images/Staff/profiles/cem/Ahmed,Zubair.jpg",
         "scores":[
             5,
             1,
@@ -18,7 +18,7 @@ var friendsArray = [
       },
       {
         "name":"Steve",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Steve_Buscemi_2018.jpg/220px-Steve_Buscemi_2018.jpg",
         "scores":[
             3,
             2,
@@ -34,7 +34,7 @@ var friendsArray = [
       },
       {
         "name":"Julia",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://images.gr-assets.com/authors/1493243934p5/63898.jpg",
         "scores":[
             5,
             2,
@@ -50,7 +50,7 @@ var friendsArray = [
       },
       {
         "name":"Tom",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"http://wikipicky.com/uploads/celebrity/Tom%20Hardy.jpg",
         "scores":[
             5,
             1,
@@ -66,7 +66,7 @@ var friendsArray = [
       },
       {
         "name":"Samantha",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://www.goodwinlaw.com/-/media/images/people/employee/k/kirby__samantha.jpg",
         "scores":[
             1,
             2,
@@ -82,7 +82,7 @@ var friendsArray = [
       },
       {
         "name":"Juan",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://www.ucsusa.org/sites/default/files/styles/author/public/images/biography/photo/juan-declet-barreto-200px.jpg?itok=eMALMwER",
         "scores":[
             3,
             5,
@@ -98,7 +98,7 @@ var friendsArray = [
       },
       {
         "name":"Akiko",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://cdn.myanimelist.net/images/voiceactors/1/42274.jpg",
         "scores":[
             3,
             1,
@@ -114,7 +114,7 @@ var friendsArray = [
       },
       {
         "name":"Charlie",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://m.media-amazon.com/images/M/MV5BMTUxMjIyNzkzMV5BMl5BanBnXkFtZTcwODc5MTMzMQ@@._V1_UY317_CR21,0,214,317_AL_.jpg",
         "scores":[
             5,
             1,
